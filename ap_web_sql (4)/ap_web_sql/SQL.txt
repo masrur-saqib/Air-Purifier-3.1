@@ -1,0 +1,10 @@
+CREATE TABLE airPurifier (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    humidity FLOAT(5,3),
+    temperature FLOAT(5,3),
+    dustlvl FLOAT(5,3),
+    lpglvl FLOAT(5,3),
+    reading_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)
+
+
